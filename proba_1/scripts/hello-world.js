@@ -15,6 +15,7 @@ function getLocation() {
 
 //=======================Say Hello (Page 1) Operations=======================//
 function sayHello() {
+     alert($("#txtName").val());
     var sayHelloInputElem = document.getElementById('helloWorldInput');
     var sayHelloTextElem = document.getElementById('helloWorldText');
     var inputText = document.getElementById('txtName');
@@ -25,6 +26,7 @@ function sayHello() {
 }
 
 function sayHelloReset() {
+   
     var sayHelloInputElem = document.getElementById('helloWorldInput');
     var sayHelloTextElem = document.getElementById('helloWorldText');
     var inputText = document.getElementById('txtName');
